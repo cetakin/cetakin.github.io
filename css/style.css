@@ -1,0 +1,53 @@
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+.form{
+	margin-top:20px;
+	margin-bottom:40px;
+}
+
+.container {
+	height: 100%;
+}
+
+#icon_telephone{
+	margin-bottom: 5px;
+}
+
+.note{
+	margin-top: 5px;
+}
+
+.layer {
+	z-index: 100;
+	background-color: #212121;
+	opacity: 0.4;
+	position: absolute;
+  	margin: auto;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+}
+
+.center-page {
+	z-index: 200;
+	position: absolute;
+  	margin: auto;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;  	
+}
+
+.video-embed {
+  width: 80%;
+  margin: auto;
+}
