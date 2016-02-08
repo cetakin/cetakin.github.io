@@ -100,8 +100,78 @@
 section {
   padding-bottom: 50px;
   padding-top: 10px;
+  margin-bottom: -20px;
 }
 
 .judul h3 {
   margin: 0;
+}
+
+.row .col.small {
+  width: 100%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .row .col.ilang {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  /*pembagian 15*/
+  .row .col.med1 {
+    width: 6.66666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.med2 {
+    width: 13.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.med3 {
+    width: 20%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  /*pembagian 15*/
+  .row .col.y1 {
+    width: 6.66666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.y2 {
+    width: 13.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.y3 {
+    width: 20%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.offset-y1 {
+    margin-left: 6.66666666667%;
+  }
+  .row .col.offset-y2 {
+    margin-left: 13.3333333333%;
+  }
+  .row .col.offset-y3 {
+    margin-left: 20%;
+  }
 }
