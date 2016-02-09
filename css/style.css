@@ -51,3 +51,127 @@
   width: 80%;
   margin: auto;
 }
+
+.promo-example {
+  overflow: hidden;
+}
+
+.promo {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.border {
+    margin-right: 7%;
+    margin-left: 7%;
+    padding: 12px;
+}
+
+.promo i {
+  margin: 40px 0;
+  color: #fdd835;
+  font-size: 7rem;
+  display: block;
+}
+
+.icon i {
+  display: block;
+  color: #212121;
+}
+
+.arrow i {
+  display: block;
+  color: #616161;
+}
+
+.promo-caption {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  margin: auto; 
+}
+
+section {
+  padding-bottom: 50px;
+  padding-top: 10px;
+  margin-bottom: -20px;
+}
+
+.judul h3 {
+  margin: 0;
+}
+
+.row .col.small {
+  width: 100%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .row .col.ilang {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  /*pembagian 15*/
+  .row .col.med1 {
+    width: 6.66666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.med2 {
+    width: 13.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.med3 {
+    width: 20%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  /*pembagian 15*/
+  .row .col.y1 {
+    width: 6.66666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.y2 {
+    width: 13.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.y3 {
+    width: 20%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.offset-y1 {
+    margin-left: 6.66666666667%;
+  }
+  .row .col.offset-y2 {
+    margin-left: 13.3333333333%;
+  }
+  .row .col.offset-y3 {
+    margin-left: 20%;
+  }
+}
