@@ -18,6 +18,11 @@
   width: 80%;
 }
 
+.content {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
 #icon_telephone{
 	margin-bottom: 5px;
 }
@@ -179,4 +184,29 @@ section {
 
 .sso-warn {
   margin-top: 30px;
+}
+
+.vertical30 {
+  height: 30px;
+}
+
+.vertical20 {
+  height: 20px;
+}
+
+.vertical50 {
+  height: 50px;
+}
+
+.vertical60 {
+  height: 60px;
+}
+
+.quote {
+  margin: 0 40px 0 40px;
+}
+
+.name {
+  font-size: 140%;
+  margin-bottom: 0;
 }
