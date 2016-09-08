@@ -6,11 +6,14 @@
 
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/header.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  /* Set a specific height */
-  min-height: 300px;
-
-  /* Create the parallax scrolling effect */
+.dibalik-layar {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/paper.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
