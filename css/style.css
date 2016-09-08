@@ -5,7 +5,7 @@
 }
 
 .header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/header2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/header.jpg");
 
   /* Set a specific height */
   min-height: 300px;
@@ -230,7 +230,7 @@ section {
 .paddingtop { padding-top: 50px; }
 
 .text-white {
-  text-color: #efefef;
+  color: #eaeaea;
 }
 
 .text-magenta {
@@ -246,7 +246,7 @@ section {
 }
 
 i.icon-white {
-  color: #efefef;
+  color: #eaeaea;
 }
 
 i.icon-magenta {
