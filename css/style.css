@@ -4,15 +4,7 @@
   flex-direction: column;
 }
 
-.header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/header.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.dibalik-layar {
+.parallax-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/paper.jpg");
   background-attachment: fixed;
   background-position: center;
