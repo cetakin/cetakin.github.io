@@ -1,3 +1,7 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 .Site {
   display: flex;
   min-height: 100vh;
