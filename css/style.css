@@ -255,3 +255,20 @@ i.icon-cyan {
 i.icon-yellow {
   color: #ffea00;
 }
+
+#countdown {
+  background-color: #242424;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/logo/iconic.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.countdown-title {
+  font-size: 15em;
+}
+
+.countdown-exp {
+  font-size: 5em;
+}
