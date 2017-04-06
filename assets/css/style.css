@@ -297,3 +297,7 @@ i.icon-yellow {
 .list-bullet {
   list-style-type: initial;
 }
+
+.padding-60 {
+  padding-right: 60px;
+}
