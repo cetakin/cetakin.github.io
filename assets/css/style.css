@@ -27,7 +27,7 @@ body {
 
 .container {
 	height: 100%;
-  width: 80%;
+  width: 90%;
 }
 
 .content {
@@ -300,4 +300,15 @@ i.icon-yellow {
 
 .padding-60 {
   padding-right: 60px;
+}
+
+.nav-wrapper {
+  position: relative;
+  height: 100%;
+}
+
+.brand-logo.center {
+  left: 50%;
+  top: 13%;
+  transform: translate(-50%, -50%);
 }
