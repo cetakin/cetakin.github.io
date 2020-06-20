@@ -312,3 +312,31 @@ i.icon-yellow {
   top: 13%;
   transform: translate(-50%, -50%);
 }
+
+.announcement-bar {
+  width: 100%;
+  color: #000;
+  background-color: #ffee58;
+  text-align: center;
+  position: relative;
+}
+
+.announcement-bar p {
+  font-size: 0.9rem;
+  display: inline-block;
+  max-width: 75%;
+  line-height: 18px;
+  margin-bottom: 11px;
+}
+
+.page-footer.fixed {
+  bottom: 0;
+  width: 100%;
+  position: relative;
+}
+
+@media only screen and (min-width: 601px) {
+  .page-footer.fixed {
+	position: absolute;
+  }
+}
