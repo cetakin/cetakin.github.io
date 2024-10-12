@@ -1,2 +1,9 @@
-# cetakin.github.io
-this repo is only for serving landing page
+# Cetakin.id
+
+The landing page of https://cetakin.id
+
+## Development
+
+```sh
+npx http-server
+```

@@ -30,6 +30,10 @@ body {
   width: 90%;
 }
 
+.small-container {
+  width: 70%;
+}
+
 .content {
 padding-top: 10px;
 padding-bottom: 10px;
@@ -338,5 +342,13 @@ i.icon-yellow {
 @media only screen and (min-width: 601px) {
   .page-footer.fixed {
 	position: absolute;
+  }
+}
+
+ul.bullet-list {
+  list-style: circle;
+  margin-left: 24px;
+  li {
+    list-style: inherit;
   }
 }
